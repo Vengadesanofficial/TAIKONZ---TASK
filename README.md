@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I developed a Markdown live editor application for a Madurai-based company. Although they gave me 1 day to complete the task, I finished it within 6 hours using React, HTML, and CSS.
 
 Currently, two official plugins are available:
 
