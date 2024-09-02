@@ -1,0 +1,82 @@
+.nav-main{
+    width: 100%;
+    height: 65px;
+    background: rgb(10, 10, 10);
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   position: fixed;
+   overflow: hidden;
+   z-index: 1000;
+
+}
+.nav-title{
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(10, 10, 10);
+}
+.logo-title a{
+    font-size: x-large;
+    font-weight: 500;
+    border: solid 1px rgb(10, 10, 10);
+    background: rgb(10, 10, 10);
+}
+.nav-buttons{
+    height: 60px;
+    width: 60%;
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    background: rgb(10, 10, 10);
+}
+.nav-btns button{
+    transition: transform 0.3s ease;
+}
+.nav-btns button:hover{
+    transform: scale(1.1);
+}
+.nav-buttons a{
+    border: solid 2px rgb(10, 10, 10);
+    background: rgb(10, 10, 10);
+}
+.nav-buttons a:hover{
+    border-bottom:solid 4px rgba(79, 65, 164, 1);
+    cursor: pointer;
+}
+.nav-btns{
+    width: 200px;
+    gap: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-btns button:nth-child(1){
+    border: solid 1px rgba(79, 65, 164, 1);
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    color: rgba(79, 65, 164, 1);
+    border-radius: 6px;
+}
+.nav-btns button:nth-child(2){
+     border: solid 1px rgba(79, 65, 164, 1);
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    color: rgba(85, 59, 245, 1)#fff;
+    background-color:  rgba(79, 65, 164, 1);
+    border-radius: 6px;
+}
+.img{
+    height: 55px;
+    width: 50px;
+    background: rgb(10, 10, 10);
+}
+.img img{
+    border-radius: 50px;
+}

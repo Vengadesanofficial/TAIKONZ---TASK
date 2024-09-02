@@ -1,0 +1,23 @@
+.reg-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.reg-main h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+.reg-main button {
+  margin-top: -50px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(79, 65, 164, 1);
+}

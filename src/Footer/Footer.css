@@ -1,0 +1,66 @@
+.footer-main{
+    border-top: solid 1px whitesmoke;
+    width: 100%;
+    height: 40vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+      background: rgb(10, 10, 10);
+ 
+}
+.footer1{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+      background: rgb(10, 10, 10);
+ 
+}
+.footer1 P{
+      background: rgb(10, 10, 10);
+ 
+}
+.foot-images{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.f-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+      background: rgb(10, 10, 10);
+ 
+}
+.f-logo p{
+    font-size: 25px;
+      background: rgb(10, 10, 10);
+ 
+}
+.footer2{
+    margin-bottom: 20px;
+    gap: 30px;
+    justify-content: first baseline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+      background: rgb(10, 10, 10);
+      
+ 
+    
+}
+.footer2 h1{
+    font-size: 20px;
+    font-weight: 600;
+      background: rgb(10, 10, 10);
+ 
+}
+.footer2 a{
+      background: rgb(10, 10, 10);
+ 
+}
+

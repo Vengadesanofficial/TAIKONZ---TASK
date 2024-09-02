@@ -1,0 +1,134 @@
+.second-main{
+    width: 100%;
+    height: 150vh;
+    border: solid 1px rgba(24, 24, 24, 1);
+    background: 
+Linear Gradient rgba(42, 40, 44, 1)
+                rgba(24, 24, 24, 1);
+}
+
+.second-sub{
+    margin-top: 65px;
+    width: 100%;
+    height: 140vh;
+    border: solid 1pxr gba(42, 40, 44, 1);
+  
+}
+.bitcoins{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.coin{
+    border: solid 1px  rgba(42, 40, 44, 1) ;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+}
+.coin h1{
+    font-size: 17px;
+    color: rgba(179, 179, 179, 1);
+}
+.coin h4{
+    font-size: 13px;
+    color: rgba(179, 179, 179, 1);
+}
+.sec-img{
+    width: 100px;
+}
+.sec-img img{
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.why-taikonz{
+    margin-top: 90px;
+    width: 800px;
+    height: 220px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.why-taikonz h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(179, 179, 179, 1);
+}
+.why-taikonz p{
+    font-size: 18px;
+    color: rgba(122, 122, 122, 1);
+}
+
+.dessign-box{
+    width: 100%;
+    margin-top: 30px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.s-design{
+    margin-top: 100px;
+    border: solid 1px rgba(122, 122, 122, 1);
+    width: 450px;
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: -9px;
+
+}
+.s-circle{
+    border: solid 1px rgba(122, 122, 122, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 140px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+.s-circle img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+  
+}
+
+.s-design h1{
+    font-size: 30px;
+    width: 350px;
+    margin-left: 80px;
+    font-weight: 700;
+    color: rgba(179, 179, 179, 1);
+}
+.s-des p{
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgba(122, 122, 122, 1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 380px;
+     height: 100px;
+     margin-left: 30px;
+}
+
